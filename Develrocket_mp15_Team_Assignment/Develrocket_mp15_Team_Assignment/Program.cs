@@ -6,7 +6,7 @@ public class Program
     {
         Console.WriteLine("=== 5조 팀원 소개 ===");
 
-        Console.WriteLine("=== # 5조 ## 김재준 ===");
+        IntroduceSquashPrince();
         Console.WriteLine("=== # 5조 ## 조재환 ===");
         Console.WriteLine("=== # 5조 ## 유희찬 ===");
 
@@ -14,4 +14,9 @@ public class Program
     }
 
     // 여기에 팀원 소개 메서드를 하나씩 추가합니다  
+
+    public static void IntroduceSquashPrince()
+    {
+        Console.WriteLine("김재준 / 안녕하세요. 5조 팀장을 맡은 김재준이라고 합니다. 잘부탁드립니다.");
+    }
 }
