@@ -17,6 +17,6 @@ public class Program
 
     public static void IntroduceSquashPrince()
     {
-
+        Console.WriteLine("김재준 / 안녕하세요. 5조 팀장을 맡은 김재준이라고 합니다. 잘부탁드립니다.");
     }
 }
